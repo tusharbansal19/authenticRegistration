@@ -118,7 +118,7 @@ app.post('/api/users/forgot-password', async (req, res) => {
     });
 
     
-    const resetUrl = `http://localhost:${process.env.PORT}/reset-password/${resetToken}`;
+    const resetUrl = `https://authenticregistration.onrender.com/reset-password/${resetToken}`;
 
     console.log(resetUrl);
     console.log(resetUrl)
